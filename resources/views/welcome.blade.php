@@ -231,7 +231,7 @@
             <div class="container">
                 <div class="flex">
                     <div class="obrazek">
-                        <a href="/"><img src="/images/grow_pot_zeleny.png" alt="GrowPot Logo" /></a>
+                        <a href="/"><img src="Eshop-Laravel/images/grow_pot_zeleny.png" alt="GrowPot Logo" /></a>
                     </div>
                     <ul>
                         <li><a href="/">Domů</a></li>
@@ -246,7 +246,7 @@
         <main>
             <div class="hero-section">
                 <!-- Image on the left -->
-                <img src="/images/GrowBot_hlavni_obrazek_png.png" alt="GrowPot Image" />
+                <img src="Eshop-Laravel/public/images/Logo_pot.png" alt="GrowPot Image" /> 
 
                 <!-- Content on the right -->
                 <div class="content">
@@ -259,24 +259,24 @@
             <!-- Produkt Section -->
             <div id="produkt">
                 <div class="grid">
-                    <img src="/images/Kvetinac_1.png" alt="Product Image" />
+                    <img src="Eshop-Laravel/public/images/Kvetinac_1.png" alt="Product Image" />
                     <div>
                         <div class="produkt-item">
-                            <img src="/images/watering-can.png" alt="Watering Can" />
+                            <img src="Eshop-Laravel/public/images/watering-can.png" alt="Watering Can" />
                             <div>
                                 <h2>Automatizované zavlažování</h2>
                                 <p>Zalévání Integrovaným zavlažovacím systémem.</p>
                             </div>
                         </div>
                         <div class="produkt-item">
-                            <img src="/images/solar-panel.png" alt="Solar Panel" />
+                            <img src="Eshop-Laravel/public/images/solar-panel.png" alt="Solar Panel" />
                             <div>
                                 <h2>Ekologické napájení</h2>
                                 <p>Napájení pomocí solárních panelů.</p>
                             </div>
                         </div>
                         <div class="produkt-item">
-                            <img src="/images/test.png" alt="Fertilization" />
+                            <img src="Eshop-Laravel/public/images/test.png" alt="Fertilization" />
                             <div>
                                 <h2>Automatické hnojení</h2>
                                 <p>Napájen solárními panely, které efektivně využívají sluneční energii.</p>
@@ -288,7 +288,7 @@
 
             <!-- Features Section -->
             <div class="features">
-                <img src="/images/Logo_pot.png" alt="GrowPot Logo">
+                <img src="Eshop-Laravel/public/images/Logo_pot.png" alt="GrowPot Logo">
                 <ul class="features-list">
                     <li><span class="feature">Efektivní</span></li>
                     <li><span class="feature">Úsporný</span></li>
@@ -300,7 +300,7 @@
 
         <!-- Contact Section -->
         <div id="kontakt">
-            <a href="mailto:sigma@skibidi.com">Email: growpot-contact@email.com</a>
+            <a href="mailto:growpot-contact@gmail.com">Email: growpot-contact@email.com</a>
         </div>
 
         <!-- Footer -->
