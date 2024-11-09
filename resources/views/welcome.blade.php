@@ -197,7 +197,7 @@
             }
 
             .features li:not(:last-child)::after {
-                content: "| ";
+                content: "|";
             }
 
             /* Contact Section */
