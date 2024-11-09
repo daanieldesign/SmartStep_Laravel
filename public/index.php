@@ -5,25 +5,28 @@ use Illuminate\Contracts\Http\Kernel;
 
 define('LARAVEL_START', microtime(true));
 
-// Determine if the application is in maintenance mode...
+// Zkontrolujte, zda je aplikace v režimu údržby...
 if (file_exists($maintenance = __DIR__.'/../storage/framework/maintenance.php')) {
     require $maintenance;
 }
 
-// Register the Composer autoloader...
+// Načtení autoload souboru Composeru...
 require __DIR__.'/../vendor/autoload.php';
 
-// Bootstrap Laravel and handle the request...
+// Bootstrap aplikace a obsloužení požadavku...
 $app = require_once __DIR__.'/../bootstrap/app.php';
 
+// Získejte instanci HTTP kernelu
 $kernel = $app->make(Kernel::class);
 
-// Handle the request and send the response...
-$response = $kernel->handle(
-    $request = Request::capture()
-);
+// Zachytíme aktuální požadavek
+$request = Request::capture();
 
+// Obsloužíme požadavek a vrátíme odpověď
+$response = $kernel->handle($request);
+
+// Odešleme odpověď zpět klientovi
 $response->send();
 
-// Terminate the request and response...
+// Ukončíme požadavek a odpověď (např. logování, úkoly na pozadí)
 $kernel->terminate($request, $response);
