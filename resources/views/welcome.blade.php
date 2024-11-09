@@ -246,7 +246,7 @@
         <main>
             <div class="hero-section">
                 <!-- Image on the left -->
-                <img src="Eshop-Laravel/public/images/Logo_pot.png" alt="GrowPot Image" /> 
+                <img src="Eshop-Laravel/images/Logo_pot.png" alt="GrowPot Image" /> 
 
                 <!-- Content on the right -->
                 <div class="content">
